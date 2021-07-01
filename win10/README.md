@@ -19,10 +19,12 @@ choco install \
   gh
   git
   github-desktop
+  dbeaver
   microsoft-windows-terminal
   powershell-core
   r.studio
-
+  powertoys
+  makemeadmin
   open-jdk
   graphvis
 ```
