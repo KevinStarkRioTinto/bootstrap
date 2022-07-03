@@ -6,25 +6,17 @@ Install [choco](chocolatey.org) package manager from an elevated PowerShell term
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 
 choco --version
-# 0.10.15
+# 1.1.0
 ```
+
+WSL2 must be installed first and separately to other packages.
 
 ```powershell
 choco install wsl2 --confirm
+```
 
-choco install \
-  anaconda3
-  docker-desktop
-  firacode
-  gh
-  git
-  github-desktop
-  dbeaver
-  microsoft-windows-terminal
-  powershell-core
-  r.studio
-  powertoys
-  makemeadmin
-  open-jdk
-  graphvis
+All remaining packages can be installed.
+
+```
+choco install --confirm packages.config
 ```
