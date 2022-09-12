@@ -20,3 +20,11 @@ All remaining packages can be installed.
 ```
 choco install --confirm packages.config
 ```
+
+## NVidia
+
+Display and CUDA drivers
+
+```powershell
+choco install nvidia-display-driver
+```
