@@ -1,0 +1,2 @@
+picozero
+micropython-umqtt.simple
