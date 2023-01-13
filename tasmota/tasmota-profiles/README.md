@@ -12,6 +12,8 @@ python3 tasmota-setup.py <ip> network-template.json switch-example.json
 
 ## Power Calibration
 
+Given two or more daisy-chained power monitors, where the first is already power-calibrated. The `tasmota-calibrate` script will take the instantanous power measurements from the calibrated device and calibrate the power measurements of the other devices.
+
 ```sh
 python3 tasmota-calibrate.py --from-ip [ip] to_ip [to_ip]
 ```
