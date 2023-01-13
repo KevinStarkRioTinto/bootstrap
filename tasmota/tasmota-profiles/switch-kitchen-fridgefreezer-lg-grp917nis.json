@@ -1,0 +1,13 @@
+[
+  { 
+    "ref": "Power switch and energy meter in main house kitchen monitoring fridge",
+    "url": "https://tasmota.github.io/docs/Commands",
+    "pre": [ "Template", "PowerSet", "VoltageSet", "CurrentSet" ]
+  },
+  { "command": "DeviceName",    "value": "kitchen-fridgefreezer"        },
+  { "command": "FriendlyName",  "value": "LG GR-P197NIS Fridge-Freezer" },
+  { "command": "Topic",         "value": "lg-grp197nis-fridgefreezer",  "note": "MQTT topic and button topic"},
+  { "command": "PowerOnState",  "value": "4",                           "note": "Control the power state when the device is powered up (4=ON+DISABLE)" },
+  { "command": "SetOption19",   "value": "0",                           "note": "HomeAssistant automatic discovery (0=off)" },
+  { "command": "AP",            "value": "1",                         "note": "Default SSID profile"}
+]

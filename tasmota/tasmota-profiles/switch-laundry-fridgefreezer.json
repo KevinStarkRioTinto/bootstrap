@@ -1,0 +1,14 @@
+[
+  { 
+    "ref": "Power switch and energy meter in main house laundry monitoring fridge+freezer",
+    "url": "https://tasmota.github.io/docs/Commands",
+    "pre": [ "Template", "PowerSet", "VoltageSet", "CurrentSet" ]
+  },
+  { "command": "DeviceName",    "value": "laundry-fridgefreezer"  },
+  { "command": "FriendlyName",  "value": "Laundry FridgeFreezer"  },
+  { "command": "Topic",         "value": "laundry-fridgefreezer",       "note": "MQTT topic and button topic"},
+  { "command": "TelePeriod",    "value": "10",                          "note": "Telemetry message interval (seconds)" },
+  { "command": "PowerOnState",  "value": "4",                           "note": "Control the power state when the device is powered up (4=ON+DISABLE)" },
+  { "command": "SetOption19",   "value": "0",                           "note": "HomeAssistant automatic discovery (0=off)" },
+  { "command": "AP",            "value": "1",                         "note": "Default SSID profile"}
+]

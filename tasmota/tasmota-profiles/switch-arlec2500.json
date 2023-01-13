@@ -1,0 +1,12 @@
+[
+  { 
+    "ref": "Power switch and energy meter attached to main house rainwater pump, supplying kitchen, bath, and laundry",
+    "url": "https://tasmota.github.io/docs/Commands",
+    "pre": [ "Template", "PowerSet", "VoltageSet", "CurrentSet" ]
+  },
+  { "command": "DeviceName",    "value": "Arlec BC228 Charger", "note": "Set the device name for HA discovery" },
+  { "command": "FriendlyName",  "value": "Switch",              "note": "HA action label" },
+  { "command": "Topic",         "value": "arlec-bc228",         "note": "MQTT topic and button topic"},
+  { "command": "TelePeriod",    "value": "10",                  "note": "Default telemetry message interval (seconds)" },
+  { "command": "PowerOnState",  "value": "3",                   "note": "Control the power state when the device is powered up (3=last saved)" }
+]
