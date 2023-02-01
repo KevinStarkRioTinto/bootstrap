@@ -1,0 +1,13 @@
+[
+  { 
+    "ref": "Power switch and energy meter controlling pool filtration pump and chlorinator",
+    "url": "https://tasmota.github.io/docs/Commands",
+    "pre": [ "Template", "PowerSet", "VoltageSet", "CurrentSet" ]
+  },
+  { "command": "DeviceName",    "value": "pool-pump" },
+  { "command": "FriendlyName",  "value": "Pool Davey DSF750" },
+  { "command": "Topic",         "value": "pool-pump",                 "note": "MQTT topic and button topic" },
+  { "command": "PowerOnState",  "value": "0",                         "note": "Control the power state when the device is powered up (0=OFF)" },
+  { "command": "SetOption19",   "value": "0",                         "note": "HomeAssistant automatic discovery (0=off)" },
+  { "command": "AP",            "value": "1",                         "note": "Default SSID profile"}
+]

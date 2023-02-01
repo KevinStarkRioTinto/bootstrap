@@ -1,0 +1,13 @@
+[
+  { 
+    "ref": "Power switch and energy meter for Paichi 5400i transfer pump at machinery shed",
+    "url": "https://tasmota.github.io/docs/Commands",
+    "pre": [ "Template", "PowerSet", "VoltageSet", "CurrentSet" ]
+  },
+  { "command": "DeviceName",    "value": "transfer-pump" },
+  { "command": "FriendlyName",  "value": "Transfer Pump Paichi 5400i" },
+  { "command": "Topic",         "value": "transfer-pump",             "note": "MQTT topic and button topic" },
+  { "command": "PowerOnState",  "value": "0",                         "note": "Control the power state when the device is powered up (0=OFF)" },
+  { "command": "SetOption0",    "value": "0",                         "note": "Save and restore power state on restart (0=OFF)" },
+  { "command": "AP",            "value": "1",                         "note": "Default SSID profile"}
+]

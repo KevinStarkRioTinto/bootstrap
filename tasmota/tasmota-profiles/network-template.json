@@ -1,0 +1,14 @@
+[ 
+  { 
+    "ref": "Private WiFi and network configuration",
+    "url": "https://tasmota.github.io/docs/Commands"
+  },
+  { "command": "Timezone",      "value": "10:00"        },
+  { "command": "SSID1",         "value": "WifiSSid"     },
+  { "command": "Password1",     "value": "passphrase"   },
+  { "command": "SSID2",         "value": "WifiSSid"     },
+  { "command": "Password2",     "value": "passphrase"   },
+  { "command": "MqttHost",      "value": "192.168.1.0"  },
+  { "command": "MqttUser",      "value": "mqtt_user"    },
+  { "command": "MqttPassword",  "value": "pasasphrase"  }
+]
